@@ -46,7 +46,8 @@ H.insert("banana", 30)
 print(H.get("apple"))   # Виведе: 10
 print(H.get("orange"))  # Виведе: 20
 print(H.get("banana"))  # Виведе: 30
-
+print(H.table)
 H.delete("banana")
 
 print(H.get("banana"))  # Виведе: None
+print(H.table)
